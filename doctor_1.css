@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.custom-navbar {
+    background: linear-gradient(90deg, #f8fdff, #e8f4f8);
+    /* background: linear-gradient(90deg, #084367, #61809d); */
+    /* border-radius: 16px;
+    margin: 10px; */
+    padding: 12px 24px;
+    margin-top: -10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4a6d7f;
+}
+
+.custom-navbar .nav-link {
+    color: #f1f1f1 !important;
+    margin: 5px;
+    font-weight: 500;
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 8px 14px;
+    background-color: #48606c;
+
+}
+
+/* .custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffe600 !important;
+
+} */
+
+.navbar-toggler {
+    border: none;
+    background-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280,0,0,0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 991.98px) {
+    .custom-navbar {
+        padding: 12px;
+    }
+
+    .custom-navbar .nav-link {
+        text-align: center;
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+.about_us {
+    background-color: #00416A;
+    /* Choose your color */
+    color: white;
+    /* Text color for contrast */
+    display: inline-block;
+    padding: 6px 12px;
+    /* Optional padding */
+    border-radius: 6px;
+    /* Rounded corners (optional) */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.marquee_section {
+    /* background:linear-gradient(to left,red,black) ; */
+    background: linear-gradient(90deg, #48606c, #4a6d7f);
+    font-size: medium;
+    font-weight: 400;
+    padding: 6px;
+    color: white;
+}
+
+
+
+
+/* services  */
+.services-dimension {
+    /* background-color: #edf0f368 !important; */
+    background-color: #ffffff;
+    padding: 4rem 0;
+
+}
+
+.appointment_section {
+    background-color: #edf0f368 !important;
+}
+
+.energy-badge {
+    background: linear-gradient(135deg, rgba(240, 147, 251, 0.2), rgba(245, 87, 108, 0.2));
+    border: 1px solid rgba(240, 147, 251, 0.3);
+    color: #f093fb;
+}
+
+.dimensional-title {
+    /* background: linear-gradient(135deg, #f093fb 0%, #f5576c 50%, #667eea 100%); */
+    /* color: #764ba2 !important; */
+    /* background: linear-gradient(135deg, #1e40af, #059669); */
+    font-weight: 800;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+}
+
+.service-card {
+    background: rgb(218 218 221 / 60%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2.5rem;
+    height: 100%;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.6s ease;
+}
+
+.service-card:hover::before {
+    left: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    border-color: rgba(102, 126, 234, 0.4);
+    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    /* background: linear-gradient(135deg, rgba(175, 186, 239, 0.2), rgba(203, 163, 243, 0.2)); */
+    background: linear-gradient(135deg, #d2e0ec, #b5cbdf);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.cosmic-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    border: 1px solid rgba(102, 126, 234, 0.3);
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #667eea;
+}
+
+
+
+.service_heading {
+    color: #45b7d1 !important;
+}
+
+.about_main_section {
+    background-color: #ced6fb52;
+}
+
+.about_us_para {
+    color: rgba(0, 0, 0, .5) !important;
+    font-weight: 500 !important;
+}
+
+
+
+
+
+/* about us  */
+.dental-about-hero {
+    background: linear-gradient(135deg, #f8fdff 0%, #e8f4f8 100%);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.dental-about-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(45deg, rgba(59, 130, 246, 0.1), rgba(34, 197, 94, 0.1));
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.dental-about-hero::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -15%;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, rgba(34, 197, 94, 0.08), rgba(59, 130, 246, 0.08));
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.dental-content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.dental-image-container {
+    position: relative;
+    z-index: 2;
+}
+
+.dental-hero-image {
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transform: perspective(1000px) rotateY(-5deg);
+    transition: all 0.4s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.dental-hero-image:hover {
+    transform: perspective(1000px) rotateY(0deg) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.dental-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #1e40af, #059669);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.dental-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    /* background: linear-gradient(135deg, #3b82f6, #22c55e);    */
+    border-radius: 2px;
+}
+
+.dental-description-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+}
+
+.dental-features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dental-feature-item {
+    background: white;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-left: 4px solid #3ee7f7;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    transform: translateX(0);
+}
+
+.dental-feature-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    border-left-color: #3b82f6;
+}
+
+.dental-feature-icon {
+    color: #5987eb;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.dental-feature-item:hover .dental-feature-icon {
+    color: #3b82f6;
+    transform: scale(1.1);
+}
+
+.dental-feature-text {
+    font-weight: 500;
+    color: #374151;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* appointment  */
+/* From Uiverse.io by ammarsaa */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #00bfff;
+}
+
+.title::before {
+    width: 18px;
+    height: 18px;
+}
+
+.title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+}
+
+.title::before,
+.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #00bfff;
+}
+
+.message,
+.signin {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.signin {
+    text-align: center;
+}
+
+.signin a:hover {
+    text-decoration: underline royalblue;
+}
+
+.signin a {
+    color: #00bfff;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+}
+
+.form label .input+span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown+span {
+    top: 12.5px;
+    font-size: 0.9em;
+}
+
+.form label .input:focus+span,
+.form label .input:valid+span {
+    color: #00bfff;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.input {
+    font-size: medium;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: #00bfff;
+}
+
+.submit:hover {
+    background-color: #00bfff96;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.image-left-top {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 300px;
+    /* or adjust as needed */
+    padding: 20px;
+}
+
+.image-left-top img {
+    /* max-width: 100%; */
+    height: 150px;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+.image-left-top {
+    margin-bottom: -250px !important;
+}
+
+
+
+/* appointment  */
+
+.choose_section {
+    color: #90CAF9;/ font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.tab-button {
+    border: none;
+    background-color: #e9ecef;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #8B6C94;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+.tab-content-box {
+    display: none;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    /* margin-top: 20px; */
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.tab-content-box.active {
+    display: block;
+}
+
+.testmonial_section {
+    /* background-color: rgba(101, 101, 233, 0.221); */
+    background-color: rgba(218, 218, 221, 0.221);
+    padding-top: 50px;
+}
+
+.custom-card {
+    /* color: #45b7d1 !important; */
+    width: 00px;
+    height: 400px;
+    padding: 20px;
+    /* background-color:  #afe2f3d7; */
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    box-shadow: 3px 2px 10px rgb(170, 218, 170);
+}
+
+
+.Quick_links li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.Quick_links li a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 500;
+
+}
+
+
+.footer-bottom {
+    background: linear-gradient(90deg, #48606c, #4a6d7f);
+    color: white;
+    font-weight: 500;
+    padding-top: 15px;
+
+
+}
+
+.footer-bottom p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.appointment-form {
+    background-color: #409cf8 !important;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer_main_section{
+    background-color:  #e8f4f8;
+}

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Unique Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="doctor_1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+    <marquee behavior="" direction="" class="marquee_section">
+        Your Smile, Our Priority &nbsp; &nbsp; /&nbsp;&nbsp;
+        Healthy Teeth, Happy Life &nbsp; &nbsp; /&nbsp;&nbsp;
+        Pain-Free Dentistry for All Ages &nbsp; &nbsp; /&nbsp;&nbsp;
+        Caring for Your Smile, Every Step of the Way &nbsp; &nbsp; /&nbsp;&nbsp;
+        Pain-Free Dentistry for All Ages.
+    </marquee>
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container navbar_section">
+            <a class="navbar-brand" href="#">MyClinic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#appointment">Appointments</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home">
+        <img src="assets/image/main_images.png" alt="" class="img-fluid">
+    </section>
+
+
+    <!-- <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="about_us">About us</h4>
+
+                    <p>
+                        Welcome to <strong>SmileCare Dental Hospital</strong>, where your oral health is our top
+                        priority. With a team of highly skilled dentists and the latest in dental technology, we provide
+                        comprehensive care in a warm, comfortable, and hygienic environment. Whether it’s a routine
+                        check-up, cosmetic dentistry, or advanced treatments like implants and root canals, our mission
+                        is to ensure every patient walks away with a healthy, confident smile.
+                    </p>
+                    <p>
+                        We believe in pain-free procedures, transparent communication, and personalized care for
+                        patients of all ages. Our experienced staff is committed to maintaining the highest standards in
+                        dental safety and hygiene.
+                    </p>
+
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="assets/image/4.png" alt="" class="img-fluid" style="height: 400px;">
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section> -->
+
+
+
+    <section class="dental-about-hero" id="about">
+        <div class="dental-floating-element"></div>
+        <div class="dental-floating-element"></div>
+        <div class="dental-floating-element"></div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12 d-flex justify-content-center dental-image-container">
+
+
+
+
+
+
+
+
+
+                    <div class="container mt-4">
+                        <div id="dentalCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/image/5.png" class="d-block img-fluid" alt="Slide 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Your Smile, Our Priority</h5>
+                                        <p>Advanced dental care in a comfortable environment.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/image/6.png" class="d-block img-fluid" alt="Slide 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Pain-Free Dentistry</h5>
+                                        <p>Get expert care without discomfort.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/image/7.png" class="d-block img-fluid" alt="Slide 3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Confident Smile for Life</h5>
+                                        <p>Creating smiles that change lives.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Optional controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#dentalCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#dentalCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-12 dental-content-wrapper">
+                    <div class="dental-stats-badge">
+                        <i class="fas fa-award me-2"></i>Trusted by 1,000+ Patients
+                    </div>
+
+                    <h2 class="dental-section-title">About Us</h2>
+
+                    <p class="dental-description-text">
+                        We are a team of dedicated dental professionals committed to delivering exceptional oral
+                        healthcare with compassion, precision, and integrity. With a focus on patient comfort and
+                        clinical excellence, our practice combines advanced technology with personalized treatment plans
+                        to ensure optimal outcomes for every individual.
+                    </p>
+
+                    <ul class="dental-features-list">
+                        <li class="dental-feature-item">
+                            <i class="fas fa-users dental-feature-icon"></i>
+                            <span class="dental-feature-text">Comprehensive dental care for all age groups</span>
+                        </li>
+                        <li class="dental-feature-item">
+                            <i class="fas fa-heart dental-feature-icon"></i>
+                            <span class="dental-feature-text">Pain-free and comfortable treatment experience</span>
+                        </li>
+                        <li class="dental-feature-item">
+                            <i class="fas fa-microchip dental-feature-icon"></i>
+                            <span class="dental-feature-text">Advanced technology and modern equipment</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="image-left-top ">
+        <img src="assets/image/10.png" alt="" class="img-fluid images_section d-none d-lg-block "
+            style="width:150px !important;">
+    </section> -->
+
+    <section class="image-left-top ">
+        <img src="assets/image/14.png" alt="" class="img-fluid images_section d-none d-lg-block "
+            style="width:350px !important">
+    </section>
+
+    <section id="services" class="services-dimension" id-="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <!-- <span class="cosmic-badge energy-badge">SERVICES</span> -->
+                <h2 class="cosmic-title dimensional-title dental-section-title">Our Service </h2>
+                <p class="fs-5 text-black-50">Explore our comprehensive range of digital services designed to elevate
+                    your brand</p>
+
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <!-- <i class="fas fa-code"></i> -->
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3 class="h4 service_heading mb-3">Root Canal Treatment</h3>
+                        <p class="text-black-50 mb-3">A root canal is a procedure to treat infected or damaged tooth
+                            pulp. It helps save the natural tooth and eliminate pain</p>
+                        <!-- <div class="text-primary fw-bold">Explore →</div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-screwdriver"></i>
+                            <!-- <i class="fas fa-palette"></i> -->
+                        </div>
+                        <h3 class="h4 service_heading mb-3">Dental Implants</h3>
+                        <p class="text-black-50 mb-3">Dental implants replace missing teeth with artificial roots and
+                            crowns that look, feel, and function like real teeth</p>
+                        <!-- <div class="text-primary fw-bold">Explore →</div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-smile"></i>
+                            <!-- <i class="fas fa-mobile-alt"></i> -->
+                        </div>
+                        <h3 class="h4 service_heading mb-3">Teeth Whitening</h3>
+                        <p class="text-black-50 mb-3"> A safe and effective cosmetic procedure to brighten discolored
+                            teeth and enhance your smile.</p>
+                        <!-- <div class="text-primary fw-bold">Explore →</div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-teeth"></i>
+                            <!-- <i class="fas fa-rocket"></i> -->
+                        </div>
+                        <h3 class="h4 service_heading mb-3">Orthodontic Braces</h3>
+                        <p class="text-black-50 mb-3">Braces help straighten misaligned teeth and correct bite issues,
+                            improving oral health and appearance.</p>
+                        <!-- <div class="text-primary fw-bold">Explore →</div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-injured"></i>
+                            <!-- <i class="fas fa-brain"></i> -->
+                        </div>
+                        <h3 class="h4 service_heading mb-3">Tooth Extraction</h3>
+                        <p class="text-black-50 mb-3"> Removal of severely damaged or decayed teeth that cannot be
+                            restored, done safely and painlessly.</p>
+                        <!-- <div class="text-primary fw-bold">Explore →</div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-sparkles"></i>
+                            <!-- <i class="fas fa-star"></i> -->
+                        </div>
+                        <h3 class="h4 service_heading mb-3">Dental Cleaning</h3>
+                        <p class="text-black-50 mb-3"> A professional cleaning procedure to remove plaque, tartar, and
+                            stains, ensuring healthy gums and teeth</p>
+                        <!-- <div class="text-primary fw-bold">Explore →</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-5 appointment_section" id="appointment">
+        <div class="container">
+            <h2 class="cosmic-title dimensional-title dental-section-title">Appointment </h2>
+            <div class="row align-items-start g-4">
+
+                <!-- Right Side: Info Panel -->
+                <div class="col-md-6 col-12">
+                    <div class="appointment-info-panel bg-light p-4 rounded shadow">
+                        <h2 class="appointment-info-title mb-4">Book Your Dental Appointment</h2>
+
+                        <ul class="appointment-feature-list list-unstyled">
+                            <li class="d-flex mb-3">
+                                <i class="fas fa-clock fa-lg me-3 mt-1 text-primary"></i>
+                                <div>
+                                    <strong>Flexible Scheduling</strong><br>
+                                    Choose from morning, afternoon, or evening slots
+                                </div>
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="fas fa-user-md fa-lg me-3 mt-1 text-primary"></i>
+                                <div>
+                                    <strong>Expert Dentists</strong><br>
+                                    Certified professionals with 10+ years experience
+                                </div>
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="fas fa-heart fa-lg me-3 mt-1 text-primary"></i>
+                                <div>
+                                    <strong>Comfortable Care</strong><br>
+                                    Pain-free treatments in a relaxing environment
+                                </div>
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="fas fa-shield-alt fa-lg me-3 mt-1 text-primary"></i>
+                                <div>
+                                    <strong>Safety First</strong><br>
+                                    Strict hygiene protocols and modern equipment
+                                </div>
+                            </li>
+                        </ul>
+
+                        <h3 class="mt-4">Need Help?</h3>
+                        <div class="appointment-contact-details mt-2">
+                            <p><i class="fas fa-phone me-2"></i> Emergency: +91 9876543210</p>
+                            <p><i class="fas fa-envelope me-2"></i> appointments@dentalclinic.com</p>
+                            <p><i class="fas fa-map-marker-alt me-2"></i> 123 Dental Street, Kakinada, AP</p>
+                            <p><i class="fas fa-clock me-2"></i> Mon-Sat: 9AM-8PM | Sun: 10AM-4PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left Side: Appointment Form -->
+                <div class="col-md-6 col-12">
+                    <form class="appointment_form_section">
+                        <h3 class="mb-4 text-center">Book Your Appointment</h3>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="date" class="form-label">Preferred Date</label>
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="time" class="form-label">Preferred Time</label>
+                                <input type="time" class="form-control" id="time" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message / Concern</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Describe your concern or reason for visit..."></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary px-5">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="testmonial_section" id="reviews">
+
+        <section id="reviews" class="reviews-vortex">
+            <div class="container">
+                <div class="text-center ">
+                    <span class="cosmic-badge">TESTIMONIALS</span>
+                    <h2 class="cosmic-title">What Our Clients Say</h2>
+                    <p class="fs-5 ">Discover the experiences that define our excellence</p>
+                </div>
+
+                <div class="team-content-wrapper mx-5">
+                    <div class="team-content-wrapper">
+
+                        <div class="custom-slide-container swiper">
+                            <div class="custom-slide-content   ">
+                                <div class="custom-card-wrapper swiper-wrapper py-5">
+
+                                    <div class="custom-card custom_card_bg_three swiper-slide">
+
+
+
+
+
+
+
+
+                                        <div class="review-card active text-center">
+                                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+                                                alt="Client" class="client-avatar mx-auto mb-3">
+                                            <div class="stars mb-3">★★★★★</div>
+                                            <p class="reviews_font_section mb-3 fst-italic">"UNIC transformed our
+                                                digital
+                                                presence
+                                                completely. Their innovative approach and attention to detail exceeded
+                                                all
+                                                expectations. Truly revolutionary work!"</p>
+                                            <h5 class="text-white">Alex Johnson</h5>
+                                            <small class="reviews_font_section">CEO, TechNova</small>
+                                        </div>
+
+                                    </div>
+                                    <div class="custom-card custom_card_bg_three swiper-slide">
+
+                                        <!-- <div class="card">
+                                            <span></span>
+                                            <div class="content">Hover Me : )</div>
+                                        </div> -->
+
+                                        <div class="review-card active text-center">
+                                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+                                                alt="Client" class="client-avatar mx-auto mb-3">
+                                            <div class="stars mb-3">★★★★★</div>
+                                            <p class="reviews_font_section mb-3 fst-italic">"UNIC transformed our
+                                                digital
+                                                presence
+                                                completely. Their innovative approach and attention to detail exceeded
+                                                all
+                                                expectations. Truly revolutionary work!"</p>
+                                            <h5 class="text-white">Alex Johnson</h5>
+                                            <small class="reviews_font_section">CEO, TechNova</small>
+                                        </div>
+
+                                    </div>
+                                    <div class="custom-card custom_card_bg_three swiper-slide">
+
+
+                                        <!-- <div class="card">
+                                            <span></span>
+                                            <div class="content">Hover Me : )</div>
+                                        </div> -->
+
+                                        <div class="review-card active text-center">
+                                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+                                                alt="Client" class="client-avatar mx-auto mb-3">
+                                            <div class="stars mb-3">★★★★★</div>
+                                            <p class="reviews_font_section mb-3 fst-italic">"UNIC transformed our
+                                                digital
+                                                presence
+                                                completely. Their innovative approach and attention to detail exceeded
+                                                all
+                                                expectations. Truly revolutionary work!"</p>
+                                            <h5 class="text-white">Alex Johnson</h5>
+                                            <small class="reviews_font_section">CEO, TechNova</small>
+                                        </div>
+
+                                    </div>
+                                    <div class="custom-card custom_card_bg_three swiper-slide">
+
+
+                                        <!-- <div class="card">
+                                            <span></span>
+                                            <div class="content">Hover Me : )</div>
+                                        </div> -->
+
+                                        <div class="review-card active text-center">
+                                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+                                                alt="Client" class="client-avatar mx-auto mb-3">
+                                            <div class="stars mb-3">★★★★★</div>
+                                            <p class="reviews_font_section mb-3 fst-italic">"UNIC transformed our
+                                                digital
+                                                presence
+                                                completely. Their innovative approach and attention to detail exceeded
+                                                all
+                                                expectations. Truly revolutionary work!"</p>
+                                            <h5 class="text-white">Alex Johnson</h5>
+                                            <small class="reviews_font_section">CEO, TechNova</small>
+                                        </div>
+
+                                    </div>
+                                    <div class="custom-card custom_card_bg_three swiper-slide">
+
+
+                                        <!-- <div class="card">
+                                            <span></span>
+                                            <div class="content">Hover Me : )</div>
+                                        </div> -->
+
+                                        <div class="review-card active text-center">
+                                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+                                                alt="Client" class="client-avatar mx-auto mb-3">
+                                            <div class="stars mb-3">★★★★★</div>
+                                            <p class="reviews_font_section mb-3 fst-italic">"UNIC transformed our
+                                                digital
+                                                presence
+                                                completely. Their innovative approach and attention to detail exceeded
+                                                all
+                                                expectations. Truly revolutionary work!"</p>
+                                            <h5 class="text-white">Alex Johnson</h5>
+                                            <small class="reviews_font_section">CEO, TechNova</small>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <!-- <section class="appointment-dual-layout-section" id="appointment">
+        <div class="appointment-background-elements"></div>
+
+
+    </section> -->
+
+
+
+
+
+
+ 
+    <footer class="py-5  footer_main_section" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 d-flex justify-content-center">
+                    <img src="assets/image/11.png" alt="" class="img-fluid">
+
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <h1>About </h1>
+                    <p>
+                        Experience dental care that prioritizes your comfort, safety, and long-term oral health. Our
+                        skilled professionals use the latest techniques and equipment to deliver gentle, effective
+                        treatments for patients of all ages. Whether it's preventive care or advanced restorative
+                        procedures, we’re here to help you smile with confidence
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-2 Quick_links">
+                    <h1>Links</h1>
+                    <li> <a href="#home">Home</a> </li>
+                    <li> <a href="#about">About us</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#reviews">Testimonials</a></li>
+                    <!-- <li> <a href="#appointment">Appointment</a></li> -->
+                    <li> <a href="#appointment">Appointment</a></li>
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <h1>Address</h1>
+                    <div class="appointment-contact-details mt-2">
+                        <p><i class="fas fa-phone me-2"></i> cell Number: +91 9876543210</p>
+                        <p><i class="fas fa-envelope me-2"></i> dentalclinic112@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Plot no 28, RTO Office Rd, behind lazza icecream
+                            shop, Ranga Rao Nagar, Kakinada, Andhra Pradesh 533003</p>
+                        <p><i class="fas fa-clock me-2"></i> Mon-Sat: 9AM-8PM | Sun: 10AM-4PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <div class="footer-bottom d-flex justify-content-center ">
+        <p> <a href="https://bhavicreations.com/">&copy; 2025 Bhavi Creations PvtLtd. All rights reserved.</a> </p>
+    </div>
+
+
+
+    <script>
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const rotateX = (y - centerY) / 10;
+                const rotateY = (centerX - x) / 10;
+
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px) scale(1.02)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px) scale(1)';
+            });
+        });
+
+    </script>
+    <script>
+        var swiper = new Swiper(".custom-slide-content", {
+            slidesPerView: 3,
+            spaceBetween: 25,
+            loop: true,
+            centerslide: 'true',
+            fade: 'true',
+            grabCursor: 'true',
+            pagination: {
+                el: ".custom-swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            autoplay: {
+                delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+            },
+            navigation: {
+                nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
